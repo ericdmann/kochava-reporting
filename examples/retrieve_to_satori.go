@@ -13,7 +13,7 @@ import (
 
 const (
 	KochavaAPIKey  = "<>"
-	kochavaAppGUID = "<>"
+	KochavaAppGUID = "<>"
 	RTMEndpoint    = "<>"
 	RTMAppKey      = "<>"
 	RTMRoleName    = "<>"
@@ -21,7 +21,7 @@ const (
 )
 
 func main() {
-	kClient, err := kochava.NewClient(KochavaAPIKey, kochavaAppGUID)
+	kClient, err := kochava.NewClient(KochavaAPIKey, KochavaAppGUID)
 	if err != nil {
 		panic("Error creating Kochava reporting client: " + err.Error())
 		return
