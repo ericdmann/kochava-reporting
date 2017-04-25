@@ -7,7 +7,7 @@ Sign up/sign in here: https://kochava.com
 ## Setup/Usage
 
 ```go
-	go get github.com/ericdmann/kochava-reporting
+    go get github.com/ericdmann/kochava-reporting
 ```
 Examples are located inside of `/examples`
 
